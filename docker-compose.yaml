@@ -37,6 +37,6 @@ services:
     ports:
       - '57500:57500'
     volumes:
-     # - ./telegraf_dial_out.conf:/etc/telegraf/telegraf.conf:ro
-     - ./telegraf_dial_in.conf:/etc/telegraf/telegraf.conf:ro
+     - ./telegraf_dial_out.conf:/etc/telegraf/telegraf.conf:ro
+     # - ./telegraf_dial_in.conf:/etc/telegraf/telegraf.conf:ro
      - ./embedded_tag.star:/etc/telegraf/embedded_tag.star:ro
